@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Yong Menu</title>
+        <style type="text/css">
+          .top-nav{
+            overflow: hidden;
+            background-color: #ffff;
+            height: 82px;
+            border-bottom:8px solid rgb(90,200,156);
+          }
+          body{
+            margin: 0;
+            background-image: url("http://www.getuwired.com/devtest/Death_to_stock_photography_Vibrant.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .top-nav a, .dropdown a{
+            color: #404040;
+            text-align: center;
+            padding: 35px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+
+          }
+
+          #navMenu{
+            float: right;
+            margin-right: 180px;
+            padding: 30px;
+
+          }
+          #navTitle{
+            float: left;
+            font-size: 1.9em;
+            margin-top: -10px;
+            margin-left: 100px;
+            color: black;
+          }
+
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 180px;
+            z-index: 1;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+          .dropdown-content a {
+            float: none;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            font-size: 0.9em;
+            background-color: rgb(90,200,156);
+          }
+          .dropdown-content a:hover {
+            background-color: #ddd;
+          }
+
+          .dropdown:hover .dropdown-content{
+            display: block;
+          }
+          .dropdown {
+            float: left;
+            overflow: hidden;
+          }
+          .dropdown-content a:hover{
+            background-color: rgb(90,170,156);
+          }
+          .dropdown a:hover, a:hover{
+            background-color: rgb(90,200,156);
+          }
+        </style>
+      </head>
+      <body>
+        <div class="top-nav">
+          <a id="navTitle"><strong>GETUWIRED</strong></a>
+          <div id="navMenu">
+
+            <span class="dropdown">
+              <a href="#">ABOUT</a>
+              <span class="dropdown-content">
+                <a href="#" >OUR STORY</a>
+                <a href="#" >OUR COMMITMENT TO YOU</a>
+              </span>
+            </span>
+
+            <span class="dropdown">
+              <a href="#">LOCATIONS</a>
+              <div class="dropdown-content">
+                <a href="#" >AUSTIN, TX</a>
+                <a href="#" >ATLANTA, GA</a>
+                <a href="#" >SEATTLE, WA</a>
+                <a href="#" >PORTLAND, OR</a>
+              </div>
+            </span>
+
+            <span class="dropdown">
+              <a href="#">PRODUCTS</a>
+              <span class="dropdown-content">
+                <a href="#" >NEW ARRIVALS</a>
+                <a href="#" >FEATURED</a>
+                <a href="#" >TOP RATED</a>
+                <a href="#" >HIS</a>
+                <a href="#" >HERS</a>
+                <a href="#" >KIDS</a>
+                <a href="#" >ACCESSORIES</a>
+                <a href="#" >SPRING CATALOG</a>
+                <a href="#" >THE ESSENTIALS</a>
+                <a href="#" >SALE</a>
+              </span>
+            </span>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+            </div >
+          </div>
+      </body>
+</html>
